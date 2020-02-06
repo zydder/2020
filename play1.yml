@@ -1,0 +1,6 @@
+---
+ - hosts: AWS
+   tasks:
+      - name : Say Hello
+        debug :
+           msg : 'Hello, world'
