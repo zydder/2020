@@ -1,0 +1,7 @@
+---
+- name : New  play Book
+  hosts : all
+  tasks :
+     - name : exploring debug module
+       debug :
+          msg : "hello ansible"
