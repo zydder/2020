@@ -1,0 +1,9 @@
+---
+-name : laerning variables
+ hosts : aws
+ vars:
+    Name : avinash
+ tasks :
+   - name : print the variable
+     debug :
+        msg : "helo {{name}}"
