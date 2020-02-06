@@ -1,0 +1,7 @@
+---
+- hosts : AWS
+  name : learing ansible
+  tasks :
+    - name : cchecking connection for servers
+      ping :
+              
