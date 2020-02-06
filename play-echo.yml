@@ -1,7 +1,0 @@
----
-- hosts: all
-  tasks:
-    - name : debug the message
-      debug :
-          msg: "echo playbook"
-
