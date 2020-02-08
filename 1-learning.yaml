@@ -1,1 +1,6 @@
 ---
+- hosts : AWS
+  tasks :
+    - name : testing connection
+      ping :
+      
