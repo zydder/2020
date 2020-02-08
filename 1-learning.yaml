@@ -3,4 +3,8 @@
   tasks :
     - name : testing connection
       ping :
-      
+    - name : update packages
+      yum :
+       - name : '*'
+         state : update
+         
